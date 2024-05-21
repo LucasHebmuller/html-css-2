@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(144, 235, 235);
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h1.primeiro{
+    color: blue;
+}
+
+h1.segundo{
+    color: red;
+}
+
+.ultimo{
+    color: rgb(255, 128, 0);
+}

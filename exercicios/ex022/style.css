@@ -1,0 +1,41 @@
+body{
+    background-color: blueviolet;
+}
+
+h1{
+    background-color: lightgreen;
+    height: 300px;
+    width: 300px;
+
+    border-color: blue;
+    border-width: 10px;
+    border-style: dashed;
+
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+
+    outline-width: 5px;
+    outline-color: yellow;
+    outline-style: solid;
+
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+a{
+    display: block;
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+}
+
+p{
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

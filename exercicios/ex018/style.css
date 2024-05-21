@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Rasgatlion';
+    src: url('fonts/Rastaglion.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    font-family: 'Rasgatlion', 'Arail', 'sans-serif';
+}

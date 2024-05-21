@@ -1,0 +1,10 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h1,h2{
+    font: normal bolder 3em 'Times New Roman', serif;
+}
