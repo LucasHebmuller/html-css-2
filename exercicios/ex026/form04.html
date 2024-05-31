@@ -7,14 +7,17 @@
 </head>
 <body>
     <h1>Teste de Formulario</h1>
-    <form action="cadastro.php" method="get">
-        <p>
-            <label for="itel">Telefone: </label>
-            <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
-        </p>
-        <p>
-            <input type="submit" value="enviar">
-        </p>
-    </form>
+    <fieldset>
+        <legend>Numero de telefone</legend>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
+            </p>
+            <p>
+                <input type="submit" value="enviar">
+            </p>
+        </form>
+    </fieldset>
 </body>
 </html>
